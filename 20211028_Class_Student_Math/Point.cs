@@ -21,5 +21,10 @@ namespace _20211028_Class_Student_Math
         public int X { get => _x; set => _x = value; }
         public int Y { get => _y; set => _y = value; }
         public int Z { get => _z; set => _z = value; }
+
+        public override string ToString()
+        {
+            return $"X = {X}, Y = {Y}, Z = {Z}";
+        }
     }
 }
